@@ -79,6 +79,7 @@ GEM
       unicode-display_width (~> 1.1)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
+    jwt (2.7.1)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -181,6 +182,7 @@ DEPENDENCIES
   byebug
   hirb (~> 0.7.3)
   hirb-unicode-steakknife (~> 0.0.9)
+  jwt (~> 2.7, >= 2.7.1)
   listen (~> 3.3)
   minitest-reporters (~> 1.4, >= 1.4.3)
   pg (~> 1.1)
